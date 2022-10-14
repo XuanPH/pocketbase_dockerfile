@@ -11,7 +11,7 @@ docker build -t pocketbase .
 ### Docker cli
 
 ```sh
-docker run -t -p 8090:8090 -v /path/to/backup_db:/usr/local/bin/pb_data pocketbase
+docker run --name pocketbase  -t -d -p 8090:8090 -v /path/to/backup_db:/usr/local/bin/pb_data pocketbase
 ```
 
 ## Related Repositories
