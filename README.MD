@@ -17,3 +17,7 @@ docker run --name pocketbase  -t -d -p 8090:8090 -v /path/to/backup_db:/usr/loca
 ## Related Repositories
 
 - [PocketBase](https://github.com/pocketbase/pocketbase)
+
+
+## Noted: SCP Copy file
+scp /path/to/folder/db/* username@ip:/path/to/db/on/server
